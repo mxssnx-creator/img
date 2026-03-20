@@ -14,7 +14,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
-- [x] Recreated `date_30.01.2026.png` from the reference image with matching compact dimensions, white background, and dark gray date text styling
+- [x] Recreated `date_30.01.2026.png` from the reference image with compact dimensions and direct per-glyph placement so only the trailing year digit changes to `6`
 
 ## Current Structure
 
@@ -86,4 +86,4 @@ export async function GET() {
 | Date | Changes |
 |------|---------|
 | Initial | Template created with base setup |
-| 2026-03-20 | Recreated the date image asset to match a provided reference image while changing the displayed date to `30.01.2026` |
+| 2026-03-20 | Recreated the date image asset to better preserve the original spacing and glyph rhythm while changing the displayed date to `30.01.2026` |
